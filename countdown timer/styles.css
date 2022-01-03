@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: rgba(0, 0, 0, 0.2) url(./assets/pexels-josh-sorenson-139303.jpg);
+  background-blend-mode: darken;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+  font-size: 3vw;
+  font-weight: bold;
+  position: absolute;
+  top: 20%;
+  letter-spacing: 2px;
+}
+
+.countdown-container {
+  display: flex;
+}
+
+.big-text {
+  font-size: 6vw;
+  line-height:1;
+  margin: 0 4rem;
+}
+
+.countdown-el {
+  text-align: center;
+}
+
+.countdown-el span {
+  font-size: 1.5vw;
+}
